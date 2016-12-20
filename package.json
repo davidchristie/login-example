@@ -1,0 +1,31 @@
+{
+  "name": "login-example",
+  "version": "1.0.0",
+  "description": "Passport authentication example",
+  "main": "index.js",
+  "scripts": {
+    "knex": "knex",
+    "start": "node index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "David Christie",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^1.0.1",
+    "body-parser": "^1.15.2",
+    "connect-flash": "^0.1.1",
+    "cookie-parser": "^1.4.1",
+    "express": "^4.14.0",
+    "express-handlebars": "^3.0.0",
+    "express-messages": "^1.0.1",
+    "express-session": "^1.14.2",
+    "express-validator": "^3.1.0",
+    "knex": "^0.12.6",
+    "passport": "^0.3.2",
+    "passport-http": "^0.3.0",
+    "passport-local": "^1.0.0"
+  },
+  "devDependencies": {
+    "sqlite3": "^3.1.8"
+  }
+}

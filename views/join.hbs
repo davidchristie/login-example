@@ -1,0 +1,29 @@
+<h1 class="page-header">Join</h1>
+
+{{>errors}}
+
+<form method="post" action="/users/join">
+
+  <div class="form-group">
+    <label for="join-name">Name</label>
+    <input id="join-name" type="text" class="form-control" placeholder="Name" name="name" required>
+  </div>
+
+  <div class="form-group">
+    <label for="join-email">Email</label>
+    <input id="join-email" type="email" class="form-control" placeholder="Email" name="email" required>
+  </div>
+
+  <div class="form-group">
+    <label for="join-password">Password</label>
+    <input id="join-password" type="password" class="form-control" placeholder="Password" name="password" required>
+  </div>
+
+  <div class="form-group">
+    <label for="join-password2">Confirm Password</label>
+    <input id="join-password2" type="password" class="form-control" placeholder="Re-type password" name="password2" required>
+  </div>
+
+  <button type="submit" class="btn btn-default">Submit</button>
+
+</form>
